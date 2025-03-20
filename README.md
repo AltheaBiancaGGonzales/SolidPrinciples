@@ -48,9 +48,10 @@ public class OrderTest {
     order.calculateTotal(10.0, 2);
     order.placeOrder("John Doe", "123 Main St");
 
-    // These methods might not be needed for all orders
     order.generateInvoice("order_123.pdf");
     order.sendEmailNotification("johndoe@example.com");
   }
 }
+
+![image](https://github.com/user-attachments/assets/7b13822a-563f-4256-96a9-f840945451de)
 
